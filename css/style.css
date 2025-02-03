@@ -1,0 +1,123 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #5a5a5a;
+    color: #333;
+}
+
+header {
+    background-color: #e6d052;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #242424;
+    padding: 1px;
+}
+
+.nav-list {
+    display: inline;
+    margin: 0 2%;
+    font-weight: 600;
+}
+
+.nav-list .link {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2%;
+}
+
+.post {
+    background-color: #242424;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post .meta {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.post .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #e6d052;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.about {
+    background-color: #242424;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.font-bold {
+    font-weight: 800;
+}
+
+.font-semi-bold {
+    font-weight: 600;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.text-mg {
+    font-size: 1.1rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
